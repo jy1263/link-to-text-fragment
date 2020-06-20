@@ -14,9 +14,6 @@
  * limitations under the License.
  */
 (async (browser) => {
-  if (!('fragmentDirective' in Location.prototype)) {
-    return;
-  }
 
   const DEBUG = true;
 
